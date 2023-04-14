@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import { Link } from "react-router-dom";
 import Contact from "./modals/Contact";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
@@ -10,8 +10,8 @@ import "../App.css";
 import "./dark.css";
 
 function Navigation() {
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const navigate = useNavigate();
 
   const [theme, setTheme] = useState("light");
 
@@ -28,15 +28,15 @@ function Navigation() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto d-flex fw-bold">
-              <Nav.Link
-                className="text-light"
-                href="/project/official-portfolio"
-              >
-                Portfolio
-              </Nav.Link>
-              <Nav.Link className="text-light" href="/">
-                Home
-              </Nav.Link>
+              <div className="btnBox">
+                <Link to="official-portfolio/project" className="navBtns">
+                  Portfolio
+                </Link>
+
+                <Link to="official-portfolio/" className="navBtns">
+                  Home
+                </Link>
+              </div>
 
               <Nav.Link
                 className="text-light"
