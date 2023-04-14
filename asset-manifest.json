@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/official-portfolio/static/css/main.4b64030c.css",
-    "main.js": "/official-portfolio/static/js/main.b4c75c0d.js",
+    "main.css": "/official-portfolio/static/css/main.9112aabe.css",
+    "main.js": "/official-portfolio/static/js/main.8b4d8e00.js",
     "static/media/DiscoveringDenver.png": "/official-portfolio/static/media/DiscoveringDenver.c3822ad8f84218f14094.png",
     "static/media/ComeInside.gif": "/official-portfolio/static/media/ComeInside.2659d520a38014ec8469.gif",
     "static/media/Librarian.png": "/official-portfolio/static/media/Librarian.7adaa9eb5c924921989a.png",
     "static/media/profile.jpg": "/official-portfolio/static/media/profile.c93f8ae2076602c31487.jpg",
     "static/media/instagramIcon.png": "/official-portfolio/static/media/instagramIcon.8f4aa1f4967fa1ee26bf.png",
     "index.html": "/official-portfolio/index.html",
-    "main.4b64030c.css.map": "/official-portfolio/static/css/main.4b64030c.css.map",
-    "main.b4c75c0d.js.map": "/official-portfolio/static/js/main.b4c75c0d.js.map"
+    "main.9112aabe.css.map": "/official-portfolio/static/css/main.9112aabe.css.map",
+    "main.8b4d8e00.js.map": "/official-portfolio/static/js/main.8b4d8e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b64030c.css",
-    "static/js/main.b4c75c0d.js"
+    "static/css/main.9112aabe.css",
+    "static/js/main.8b4d8e00.js"
   ]
 }
