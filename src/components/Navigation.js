@@ -28,8 +28,11 @@ function Navigation() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto d-flex fw-bold">
-              {location.pathname == "/" ? (
-                <Nav.Link className="text-light" href="/project">
+              {location.pathname == "/official-portfolio" ? (
+                <Nav.Link
+                  className="text-light"
+                  href="/project/official-portfolio"
+                >
                   Portfolio
                 </Nav.Link>
               ) : (

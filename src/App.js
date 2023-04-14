@@ -18,8 +18,8 @@ function App() {
         <Navigation />
 
         <Routes>
-          <Route path="official-portfolio/" element={<Home />} />
-          <Route path="official-portfolio/project" element={<Project />} />
+          <Route path="/official-portfolio" element={<Home />} />
+          <Route path="/project/official-portfolio" element={<Project />} />
         </Routes>
         <Footer />
       </Router>
