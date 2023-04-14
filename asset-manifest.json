@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/official-portfolio/static/css/main.4b64030c.css",
+    "main.js": "/official-portfolio/static/js/main.d927de70.js",
+    "static/media/DiscoveringDenver.png": "/official-portfolio/static/media/DiscoveringDenver.c3822ad8f84218f14094.png",
+    "static/media/ComeInside.gif": "/official-portfolio/static/media/ComeInside.2659d520a38014ec8469.gif",
+    "static/media/Librarian.png": "/official-portfolio/static/media/Librarian.7adaa9eb5c924921989a.png",
+    "static/media/profile.jpg": "/official-portfolio/static/media/profile.c93f8ae2076602c31487.jpg",
+    "static/media/instagramIcon.png": "/official-portfolio/static/media/instagramIcon.8f4aa1f4967fa1ee26bf.png",
+    "index.html": "/official-portfolio/index.html",
+    "main.4b64030c.css.map": "/official-portfolio/static/css/main.4b64030c.css.map",
+    "main.d927de70.js.map": "/official-portfolio/static/js/main.d927de70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b64030c.css",
+    "static/js/main.d927de70.js"
+  ]
+}
