@@ -1,0 +1,16 @@
+.dark{
+    background-color: #011739;
+    color:#f3e8ee
+}
+.light{
+    background-color: white;
+    color:black
+}
+.dark-nav{
+    background-color: rgb(26, 47, 91);
+    color: white!;
+    
+}
+.light-nav{
+    background-color: rgb(197, 201, 244);
+}

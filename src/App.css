@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+
+.cardStack{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+    max-height: 150px;
+    background-color: #22727d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainTitle{
+    font-size: 6vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 2%;
+    padding-top: 0.5%;
+    max-height: 150px;
+
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subTitle{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    
+    padding: 1%;
+    position:relative;
+    text-align: right;
+    
+    bottom: 4vw
+    
 }
 
-.App-link {
-  color: #61dafb;
+.aboutCard{
+    margin:5% ;
+    width: 50%;
+    border-radius: 20%;
+    color:rgb(4, 6, 20)
+}
+.profileImg{
+    /* border-radius: 20%; */
+}
+.cardTitle{
+    padding:2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+    background-color: #22727d;
 }
+
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    position: relative;
+    text-align: right;
+    padding: 5%;
+}
+
+.modal{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+    
+}
+.sub{
+    font-weight: lighter;
+}
+.modalButton{
+    color: rgba(0,0,0,0.55);
+}
+
+.portfolioCard{
+    width: 50%;
+    color: black;
+}
+
+.icon{
+    max-width: 18%;
+}
+
+.iconContainer{
+    max-width: 20%;
+}
+
+
