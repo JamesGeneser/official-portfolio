@@ -9,6 +9,7 @@ function Project() {
           <Card.Img
             variant="top"
             src={require("../images/DiscoveringDenver.png")}
+            alt="main page of Discovering Denver, hero image of concert"
           />
           <Card.Body>
             <Card.Title>Discovering Denver</Card.Title>
@@ -19,11 +20,20 @@ function Project() {
           </Card.Body>
 
           <Card.Body>
-            <Card.Link href="#">Go to Project page</Card.Link>
+            <Card.Link
+              target="_blank"
+              href="https://pure-refuge-38397.herokuapp.com/"
+            >
+              Go to Project page
+            </Card.Link>
           </Card.Body>
         </Card>
         <Card className="portfolioCard">
-          <Card.Img variant="top" src={require("../images/Librarian.png")} />
+          <Card.Img
+            alt="homepage of Digital Librarian"
+            variant="top"
+            src={require("../images/Librarian.png")}
+          />
           <Card.Body>
             <Card.Title>Digital Librarian</Card.Title>
             <Card.Text>
@@ -32,18 +42,29 @@ function Project() {
             </Card.Text>
           </Card.Body>
           <Card.Body>
-            <Card.Link href="#">Go to Project page</Card.Link>
+            <Card.Link
+              target="_blank"
+              href="https://jamesgeneser.github.io/book-search/bookpage.html"
+            >
+              Go to Project page
+            </Card.Link>
           </Card.Body>
         </Card>
         <Card className="portfolioCard">
-          <Card.Img variant="top" src={require("../images/ComeInside.gif")} />
+          <Card.Img
+            variant="top"
+            src={require("../images/ComeInside.gif")}
+            alt="Gif of Come Inside music video title page, rain on window."
+          />
           <Card.Body>
             <Card.Title>Come Inside Music Video</Card.Title>
             <Card.Text>Original drawn animations by James Geneser</Card.Text>
           </Card.Body>
 
           <Card.Body>
-            <Card.Link href="#">Go to Youtube</Card.Link>
+            <Card.Link href="https://www.youtube.com/watch?v=d3SrKzkeSqE">
+              Go to Youtube
+            </Card.Link>
           </Card.Body>
         </Card>
       </div>
