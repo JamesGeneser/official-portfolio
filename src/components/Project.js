@@ -51,11 +51,7 @@ function Project() {
           </Card.Body>
         </Card>
         <Card className="portfolioCard">
-          <Card.Img
-            variant="top"
-            src={require("../images/ComeInside.gif")}
-            alt="Gif of Come Inside music video title page, rain on window."
-          />
+          <Card.Img variant="top" src={require("../images/birdNerd")} />
           <Card.Body>
             <Card.Title>Bird Nerd</Card.Title>
             <Card.Text>
