@@ -57,13 +57,16 @@ function Project() {
             alt="Gif of Come Inside music video title page, rain on window."
           />
           <Card.Body>
-            <Card.Title>Come Inside Music Video</Card.Title>
-            <Card.Text>Original drawn animations by James Geneser</Card.Text>
+            <Card.Title>Bird Nerd</Card.Title>
+            <Card.Text>
+              {" "}
+              Query a database of Colorado birds, id by description.
+            </Card.Text>
           </Card.Body>
 
           <Card.Body>
-            <Card.Link href="https://www.youtube.com/watch?v=d3SrKzkeSqE">
-              Go to Youtube
+            <Card.Link href="https://bird-nerd2023.herokuapp.com/">
+              Go to Bird Nerd
             </Card.Link>
           </Card.Body>
         </Card>
