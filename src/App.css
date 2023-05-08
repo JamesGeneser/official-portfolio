@@ -7,7 +7,7 @@
 
 .header{
     max-height: 150px;
-    background-color: #22727d;
+ 
 }
 
 .btnBox{
@@ -15,12 +15,17 @@
     justify-content: space-around;
 }
 
+
+.navBar{
+    color:black;
+
+}
 .navBtns{
     display: flex;
     justify-content: space-between;
     position: relative;
     top: 18%;
-    color:#ffffff
+
 }
 
 
@@ -61,7 +66,7 @@
 }
 
 .footer{
-    background-color: #22727d;
+
 }
 
 .title{

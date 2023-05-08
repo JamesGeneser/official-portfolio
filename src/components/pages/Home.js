@@ -4,6 +4,7 @@ import Card from "react-bootstrap/Card";
 export default function Home() {
   return (
     <>
+      <h1>Home page</h1>
       <Card className="aboutCard">
         <Card.Img
           className="profileImg"

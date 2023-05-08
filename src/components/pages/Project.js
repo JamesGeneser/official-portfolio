@@ -51,7 +51,7 @@ function Project() {
           </Card.Body>
         </Card>
         <Card className="portfolioCard">
-          <Card.Img variant="top" src={require("../images/birdNerd")} />
+          <Card.Img variant="top" src={require("../images/birdNerd.png")} />
           <Card.Body>
             <Card.Title>Bird Nerd</Card.Title>
             <Card.Text>
