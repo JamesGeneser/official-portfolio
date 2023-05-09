@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import HomePortfolio from "./HomePortfolio";
 import { Nav, Navbar } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 // import Nav from "react-bootstrap/Nav";
@@ -13,33 +13,38 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
+
 function Navigation() {
   const [currentPage, setCurrentPage] = useState("home");
-
-  const HandlePageChange = (page) => {
-    console.log(page);
-
-    setCurrentPage(page);
-    console.log(currentPage);
-  };
+  console.log(currentPage);
   return (
     <Navbar>
       <Container className="nav nav-tabs">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav
-            className="me-auto"
-            onClick={(e) => HandlePageChange(e.target.name)}
-          >
-            {currentPage == "home" ? (
-              <Nav.Link className="nav-item" name="portfolio" to="/portfolio">
-                Portfolio
-              </Nav.Link>
-            ) : (
-              <Nav.Link to="home" className="nav-item" name="home">
-                Home
-              </Nav.Link>
-            )}
+          <HomePortfolio
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
+          {/* <Nav className="me-auto">
+            <Nav.Link
+              className="nav-item"
+              name="portfolio"
+              href="portfolio"
+              onClick={(e) => HandlePageChange(e.target.name)}
+            >
+              Portfolio
+            </Nav.Link>
+
+            <Nav.Link
+              to="home"
+              className="nav-item"
+              name="home"
+              href="home"
+              onClick={(e) => HandlePageChange(e.target.name)}
+            >
+              Home
+            </Nav.Link>
 
             <Nav.Link
               href="https://www.linkedin.com/in/james-geneser-01967a153/"
@@ -47,8 +52,14 @@ function Navigation() {
             >
               LinkedIn
             </Nav.Link>
-          </Nav>
+          </Nav> */}
           <Contact />
+          <Nav.Link
+            href="https://www.linkedin.com/in/james-geneser-01967a153/"
+            className="nav-item"
+          >
+            LinkedIn
+          </Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>
