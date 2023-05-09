@@ -15,17 +15,13 @@ import { useLocation, useNavigate } from "react-router-dom";
 // We assign them to their own variable names
 
 function Navigation() {
-  const [currentPage, setCurrentPage] = useState("home");
-  console.log(currentPage);
+  // console.log(currentPage);
   return (
     <Navbar>
       <Container className="nav nav-tabs">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <HomePortfolio
-            currentPage={currentPage}
-            setCurrentPage={setCurrentPage}
-          />
+          <HomePortfolio />
           {/* <Nav className="me-auto">
             <Nav.Link
               className="nav-item"
@@ -55,6 +51,7 @@ function Navigation() {
           </Nav> */}
           <Contact />
           <Nav.Link
+            target="_blank"
             href="https://www.linkedin.com/in/james-geneser-01967a153/"
             className="nav-item"
           >

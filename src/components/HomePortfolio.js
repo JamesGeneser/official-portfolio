@@ -1,37 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Nav } from "react-bootstrap";
-const HomePortfolio = (currentPage, setCurrentPage) => {
-  console.log(currentPage.currentPage);
-  const HandlePageChange = (page) => {
-    console.log(page);
+const HomePortfolio = () => {
+  console.log(window.location.pathname);
+  let location = window.location.pathname;
 
-    setCurrentPage(page);
-
-    console.log(currentPage);
-  };
-  if (currentPage === "home") {
+  if (location === "/official-portfolio/home") {
     return (
       <Nav className="me-auto">
-        <Nav.Link
-          className="nav-item"
-          name="portfolio"
-          href="portfolio"
-          onClick={(e) => HandlePageChange(e.target.name)}
-        >
+        <Nav.Link className="nav-item" name="portfolio" href="portfolio">
           Portfolio
         </Nav.Link>
       </Nav>
     );
-  } else if (currentPage === "portfolio") {
+  } else if (location === "/official-portfolio/portfolio") {
     return (
       <Nav>
-        <Nav.Link
-          to="home"
-          className="nav-item"
-          name="home"
-          href="home"
-          onClick={(e) => HandlePageChange(e.target.name)}
-        >
+        <Nav.Link className="nav-item" name="home" href="home">
           Home
         </Nav.Link>
       </Nav>
