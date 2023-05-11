@@ -108,12 +108,14 @@
 
 .portfolioTxt{
     display: flex;
-    flex-direction: column;
+    align-items: end;
+    font-size: 20px;
+    
 }
 
 
 .portfolioCard{
-    width: 100%;
+    width: 80%;
     color: black;
     margin: 0%;
     
@@ -121,6 +123,9 @@
 
 .portfolioImg{
     width: 100%;
+}
+.portfolioImg:hover{
+    transform: scale(1.02);
 }
 
 
