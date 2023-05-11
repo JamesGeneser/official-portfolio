@@ -35,7 +35,9 @@ function Project() {
             </Link>
           </Col>
           <Col xs={2} className="portfolioTxt">
-            Query a database of Colorado birds, id by description.
+            Learn about the many birds that live in Colorado. Use the BirdNerd
+            ID tool to identify birds by description, then post your sighting on
+            the feed.
           </Col>
         </Row>
         <Row className="portfolioCard">

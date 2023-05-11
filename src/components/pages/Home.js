@@ -19,16 +19,27 @@ export default function Home() {
               src={require("../images/profile.jpg")}
             ></img>
           </Col>
-          <Col>
-            <h2>Web Developer</h2>
-            <p>
-              Experienced in: React, GraphQl, MongoDB, MySQL, and JavaScript
-            </p>
-            <h4>Animator</h4>
-            <p>
-              Skilled in using the Gsap library. An eye for design and visual
-              engagement.
-            </p>
+          <Col className="profileTxt">
+            <div className="webDev">
+              <h2>Web Developer</h2>
+              <p>
+                Experienced in: React, GraphQl, MongoDB, MySQL, and JavaScript
+              </p>
+            </div>
+            <div className="webDev">
+              <h4>Skilled Collaborator</h4>
+              <p>
+                Passionate about the idea process and building collaboratively
+                with a team.
+              </p>
+            </div>
+            <div className="webDev">
+              <h4>Animator</h4>
+              <p>
+                Skilled in using the Gsap library. An eye for design and visual
+                engagement.
+              </p>
+            </div>
           </Col>
         </Row>
         <Col></Col>

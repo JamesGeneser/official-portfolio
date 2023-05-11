@@ -20,6 +20,17 @@
     margin: 5%
 }
 
+.profileTxt{
+    padding: 8%;
+    display: flex; 
+     flex-direction: column;
+    justify-content: space-between;
+
+}
+.webDev{
+    /* margin: 4%; */
+}
+
 
 .nav{
     color: black;
