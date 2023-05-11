@@ -1,18 +1,33 @@
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Project() {
   return (
     <>
-      <h1 className="title">Portfolio</h1>
-      <div className="cardStack">
-        <Card className="portfolioCard">
+      <Container className="cardStack">
+        <Row className="portfolioCard">
+          <h2>Discovering Denver</h2>
+          <Col>
+            <img
+              className="portfolioImg"
+              src={require("../images/DiscoveringDenver.png")}
+            ></img>
+          </Col>
+          <Col className="d-flex align-items-end">
+            Explore a variety of activities around Denver. Read and write
+            reviews and ratings!
+          </Col>
+        </Row>
+        {/* <Card className="portfolioCard">
+          <Card.Title>Discovering Denver</Card.Title>
           <Card.Img
             variant="top"
             src={require("../images/DiscoveringDenver.png")}
             alt="main page of Discovering Denver, hero image of concert"
           />
           <Card.Body>
-            <Card.Title>Discovering Denver</Card.Title>
             <Card.Text>
               Explore a variety of activities around Denver. Read and write
               reviews and ratings!
@@ -65,8 +80,8 @@ function Project() {
               Go to Bird Nerd
             </Card.Link>
           </Card.Body>
-        </Card>
-      </div>
+        </Card> */}
+      </Container>
     </>
   );
 }

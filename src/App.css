@@ -21,12 +21,23 @@
 }
 
 
+.nav{
+    color: black;
+    align-items: center ;
+}
 
 
-.navBar{
+.nav-item{
+    color: black;
+}
+
+.portfolio{
+    color: black;
+}
+/* .navBar{
     color:black;
 
-}
+} */
 
 
 
@@ -91,10 +102,27 @@
     color: rgba(0,0,0,0.55);
 }
 
-.portfolioCard{
-    width: 50%;
-    color: black;
+.cardStack{
+    margin: 0%
 }
+
+.portfolioTxt{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.portfolioCard{
+    width: 100%;
+    color: black;
+    margin: 0%;
+    
+}
+
+.portfolioImg{
+    width: 100%;
+}
+
 
 .icon{
     max-width: 18%;

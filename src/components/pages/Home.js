@@ -9,7 +9,7 @@ import BackgroundAnimation from "../animations/backgroundAnimation";
 export default function Home() {
   return (
     <>
-      <BackgroundAnimation />
+      {/* <BackgroundAnimation /> */}
 
       <Container>
         <Row>
