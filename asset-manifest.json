@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/official-portfolio/static/css/main.9112aabe.css",
-    "main.js": "/official-portfolio/static/js/main.31bc70cf.js",
-    "static/media/birdNerd.png": "/official-portfolio/static/media/birdNerd.94d06a9894751679a9cd.png",
-    "static/media/DiscoveringDenver.png": "/official-portfolio/static/media/DiscoveringDenver.c3822ad8f84218f14094.png",
-    "static/media/Librarian.png": "/official-portfolio/static/media/Librarian.7adaa9eb5c924921989a.png",
-    "static/media/profile.jpg": "/official-portfolio/static/media/profile.c93f8ae2076602c31487.jpg",
-    "static/media/instagramIcon.png": "/official-portfolio/static/media/instagramIcon.8f4aa1f4967fa1ee26bf.png",
-    "index.html": "/official-portfolio/index.html",
-    "main.9112aabe.css.map": "/official-portfolio/static/css/main.9112aabe.css.map",
-    "main.31bc70cf.js.map": "/official-portfolio/static/js/main.31bc70cf.js.map"
+    "main.css": "/official-portfolio/home/static/css/main.707d4983.css",
+    "main.js": "/official-portfolio/home/static/js/main.56dd3cc8.js",
+    "static/media/birdNerd.png": "/official-portfolio/home/static/media/birdNerd.94d06a9894751679a9cd.png",
+    "static/media/DiscoveringDenver.png": "/official-portfolio/home/static/media/DiscoveringDenver.c3822ad8f84218f14094.png",
+    "static/media/Librarian.png": "/official-portfolio/home/static/media/Librarian.7adaa9eb5c924921989a.png",
+    "static/media/profileLogo.png": "/official-portfolio/home/static/media/profileLogo.99746c2b8204c2e2c4e9.png",
+    "static/media/profile.jpg": "/official-portfolio/home/static/media/profile.c93f8ae2076602c31487.jpg",
+    "static/media/Resume23.pdf": "/official-portfolio/home/static/media/Resume23.00defa4d53cb2002c1bc.pdf",
+    "index.html": "/official-portfolio/home/index.html",
+    "main.707d4983.css.map": "/official-portfolio/home/static/css/main.707d4983.css.map",
+    "main.56dd3cc8.js.map": "/official-portfolio/home/static/js/main.56dd3cc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9112aabe.css",
-    "static/js/main.31bc70cf.js"
+    "static/css/main.707d4983.css",
+    "static/js/main.56dd3cc8.js"
   ]
 }
