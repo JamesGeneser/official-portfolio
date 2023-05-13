@@ -12,7 +12,7 @@ function Contact() {
 
   return (
     <>
-      <Button className="nav-item" variant="" onClick={handleShow}>
+      <Button className="nav-item navElement" variant="" onClick={handleShow}>
         Contact
       </Button>
 
